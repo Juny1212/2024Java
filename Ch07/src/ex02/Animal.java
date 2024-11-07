@@ -1,8 +1,6 @@
 package ex02;
 
-public class Animal {
+public abstract class Animal {
 
-    public boolean IsHealthy() {
-        return true;
-    }
+    public abstract boolean IsHealthy();
 }
